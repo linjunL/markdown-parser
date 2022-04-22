@@ -1,7 +1,5 @@
 ## A Header ##
 
-[Link1]()
-[Link2](gmail.com)
-
-[Link3](ucsd.edu)
+[Gamil](gmail.com)
+[UCSD](ucsd.edu)
 ---
