@@ -13,6 +13,9 @@ public class MarkdownParse {
         int currentIndex = 0;
         while(currentIndex < markdown.length()) {
             int openBracket = markdown.indexOf("[", currentIndex);
+            if (openBracket > 0 && markdown.charAt(openBracket - 1) == '!'){
+                openBracket = markdown.indexOf("[" , openBracket + 1);
+            }
             // fix the test-file 2
             if (openBracket == -1){
                 return toReturn;
